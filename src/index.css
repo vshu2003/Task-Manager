@@ -1,0 +1,104 @@
+
+.todo_style
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.todo_style .fa-times {
+  
+  width: 20px;
+  height: 20px;
+  display: flex;
+  border-color: rgb(189, 0, 0);
+  border-width: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: rgb(19, 117, 203);
+  background-color: rgb(130, 129, 129);
+  box-shadow: 5px 5px 15px -5px rgba(231, 199, 199, 0.3);
+
+  
+}
+
+.main_div
+{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.center_
+{
+  width: 25%;
+  height: 80vh;
+  background-color: rgb(232, 232, 232);
+  box-shadow: 1px 1px 200px 5px rgb(244, 0, 0);
+  border-width: 50px;
+  border-color: black;
+  border-radius: 15px;
+}
+
+h1{
+  color: rgb(255, 0, 0);
+  background: transparent;
+  background-color: rgb(0, 0, 0);
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.5);
+}
+
+button{
+  min-height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border-color: red;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3)
+}
+
+button:hover
+{
+  background-color: rgb(209, 20, 9);
+}
+
+ol
+{
+  margin-top: 30px;
+}
+
+ol li{
+  padding: 0px;
+  text-align: left;
+  font-size: 20px;
+  min-height: 40px;
+  font-weight: 500;
+  color: rgb(10, 10, 10);
+  text-transform: capitalize;
+}
+
+@media(max-width:768px)
+{
+  .center_{
+    width: 50%;
+  }
+}
+
+.todo_style .fa-times
+{
+  margin: 0 15px 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
